@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 
 int check(int matrix[3][3])
@@ -108,9 +107,6 @@ int check(int matrix[3][3])
 
 int main()
 {
-
-	setlocale(LC_ALL, "Turkish");
-
 	int matrix[3][3];
 
 	int x = 1;
